@@ -36,6 +36,7 @@ for name in profile_names:
         else:
             wifi_profile["password"] = None  # No password found
         
+        
         # Add Wi-Fi profile to the list
         wifi_list.append(wifi_profile)
 
